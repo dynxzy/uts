@@ -1,5 +1,4 @@
 def pilih_barang(daftar_barang, kapasitas):
-    """Memilih barang secara greedy berdasarkan prioritas."""
     # Langkah 1: urutkan prioritas menurun, berat menaik sebagai penentu seri
     terurut = sorted(daftar_barang, key=lambda b: (-b["prioritas"], b["berat"]))
 
